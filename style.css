@@ -401,6 +401,7 @@ footer {
 
   .advantages__column {
     display: block;
+    width: 320px;
   }
 
   .advantages__title  {
@@ -637,6 +638,308 @@ footer {
 
   .footer__social {
     margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .footer__social_linkedin {
+    background:  no-repeat url(img/linkedinMob.svg);
+    margin-right: 70px;
+    margin-left: 30px;
+  }
+
+  .footer__social_Instagram {
+    background: no-repeat url(img/InstagramMob.svg);
+    padding-right: 67px;
+  }
+
+  .footer__social_Facebook {
+    background: no-repeat url(img/FacebookMob.svg);
+    padding-right: 5px;
+    padding-left: 16px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  body {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 100%;
+  }
+
+  .menu {
+    padding-left: 58px;
+    padding-bottom: 39px;
+    border: 0;
+    background: 320px 15px no-repeat url(img/hambMenuMob.svg);
+  }
+
+  .menu__item {
+    display: none;
+  }
+
+  .menu__btn {
+    left: 230px;
+    bottom: 26px;
+    font: 800 8px/10px "Montserrat", arial, helvetica, sans-serif;
+    width: 70px;
+    height: 20px;
+  }
+
+  .main {
+    padding: 28px 30px 0 66px;
+    margin-top: -7px;
+    background: top no-repeat url(img/mainImgMob375.svg);
+    background-position-x: -37px;
+  }
+
+  .main__title {
+    font-size: 0;
+    background: url(img/mainTitleMob.svg) 54px 0 no-repeat,
+                url(img/mainSubtitleMob.svg) 90px 48px no-repeat;
+    padding-bottom: 83px;
+    }
+
+  .main__subtitle_first-line,
+  .main__subtitle_second-line {
+    font-size: 0;
+  }
+
+  .advantages__column {
+    display: block;
+  }
+
+  .advantages__title  {
+    font: 900 16px/20px "Montserrat", arial, helvetica, sans-serif;
+    text-align: center;
+    margin: 14px 75px 38px 90px;
+  }
+
+  .column1 {
+    background: no-repeat url(img/advIcon1Mob.svg);
+    margin: 0;
+    width: 320px;
+    background-position-x: 162px;
+  }
+
+  .column2 {
+    background: top left no-repeat url(img/advIcon2Mob.svg);
+    background-position: 162px 17px;
+    margin: 0;
+    width: 320px;
+  }
+
+  .column3 {
+    background: top left no-repeat url(img/advIcon3Mob.svg);
+    background-position: 162px 18px;
+    margin: 0;
+    width: 320px;
+  }
+
+  .column1__subtitle,
+  .column2__subtitle,
+  .column3__subtitle {
+    font: 900 16px/20px "Montserrat", arial, helvetica, sans-serif;
+  }
+
+  .column1__subtitle {
+    padding-top: 55px;
+    padding-left: 50px;
+  }
+
+  .column2__subtitle {
+    padding-top: 76px;
+    padding-left: 47px;
+    margin-bottom: -15px;
+  }
+
+  .column3__subtitle {
+    padding-left: 47px;
+    padding-top: 77px;
+  }
+
+  .column1__discription,
+  .column2__discription,
+  .column3__discription_mob {
+    font: 500 16px/20px "Montserrat", arial, helvetica, sans-serif;
+    text-align: center;
+  }
+
+  .column1__discription {
+    margin-top: -9px;
+    margin-left: 54px;
+  }
+
+  .column2__discription {
+    padding-left: 57px;
+    padding-top: 2px;
+  }
+
+  .column3__discription {
+    display: none;
+  }
+
+  .column3__discription_mob {
+    display: block;
+    margin-top: -11px;
+    margin-left: 54px;
+  }
+
+  .advantages__btn {
+    font: 800 16px/20px "Montserrat", arial, helvetica, sans-serif;
+    width: 260px;
+    height: 54px;
+    top: 269px;
+  }
+
+  .skills {
+    margin-bottom: 43px;
+  }
+
+  .skills__title {
+    font: 900 16px/20px "Montserrat", arial, helvetica, sans-serif;
+    margin-top: 196px;
+    margin-bottom: 0;
+  }
+
+  .skill1 {
+    background: top center no-repeat url(img/skillIcon1.svg);
+    margin-top: -7px;
+  }
+
+  .skill1__subtitle_mob {
+    display: block;
+    font: 600 16px/20px "Montserrat", arial, helvetica, sans-serif;
+    text-align: center;
+    padding-top: 186px;
+    margin-bottom: 0;
+  }
+
+  .skill1__discription_mob {
+    display: block;
+    font: 500 14px/17px "Montserrat", arial, helvetica, sans-serif;
+    margin-top: 9px;
+    padding-right: 5px;
+    text-align: center;
+  }
+
+  .skill2,
+  .skill3,
+  .skill1__subtitle,
+  .skill2__subtitle_first-line,
+  .skill2__subtitle_second-line,
+  .skill3__subtitle,
+  .skill1__discription,
+  .skill2__discription,
+  .skill3__discription {
+    display: none;
+  }
+
+  .skill1__circle {
+    margin-left: 25px;
+  }
+
+  .skill1__circle_yellow {
+    background: #ffda45;
+    border-radius: 50%;
+    margin-left: 123px;
+    margin-top: 28px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .skill1__circle_transparent1,
+  .skill1__circle_transparent2 {
+    background: #fff;
+    border: 1px solid #e1e6e9;
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+
+  .skill1__circle_transparent1 {
+    margin-left: 154px;
+    margin-top: -15px;
+  }
+
+  .skill1__circle_transparent2 {
+    margin-left: 181px;
+    margin-top: -15px;
+  }
+
+  .form {
+    display: block;
+    background: rgba(51, 0, 153, 0.12) left center no-repeat url(img/formIcon.svg);
+    background-position: 98px 72px;
+    padding-bottom: 104px;
+  }
+
+  .form__title {
+    font: 900 16px/19px "Montserrat", arial, helvetica, sans-serif;
+    padding: 34px 0 207px 0;
+  }
+
+  .form__subtitle {
+    display: none;
+  }
+
+  .form__subtitle_mob {
+    display: block;
+    font: 600 16px/19px "Montserrat", arial, helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 21px;
+  }
+
+  input {
+    display: block;
+    font: 600 10px/12px "Montserrat", arial, helvetica, sans-serif;
+    padding-left: 40px;
+    width: 259px;
+    height: 50px;
+    margin: 1px 32px;
+    padding-left: 23px;
+  }
+
+  input:nth-child(1) {
+    margin: 1px 59px;
+    margin-bottom: -6px;
+  }
+
+  .form__btn {
+    font: 900 16px/19px "Montserrat", arial, helvetica, sans-serif;
+    width: 260px;
+    height: 50px;
+    margin: 21px 59px;
+  }
+
+  footer {
+    margin-top: -13px;
+  }
+
+  .footer__title {
+    display: none;
+  }
+
+  .footer__title_mob {
+    display: block;
+    font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 32px;
+    padding-right: 3px;
+  }
+
+  .footer__background {
+    font: 400 14px/16px "Roboto", arial, helvetica, sans-serif;
+  }
+
+  .footer__background {
+    padding-top: 7px;
+    padding-bottom: 32px;
+  }
+
+  .footer__social {
+    margin-left: 22px;
     margin-top: 15px;
   }
 
