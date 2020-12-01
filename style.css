@@ -1,8 +1,12 @@
 body {
   font-family: "Montserrat", sans-serif;
-  margin: 0;
   width: 1440px;
-  height: 3473px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .header {
@@ -360,7 +364,12 @@ footer {
   body {
     font-family: "Montserrat", sans-serif;
     width: 320px;
-    height: 2547px;
+    margin: 0 auto;
+  }
+
+  .wrapper {
+    width: 320px;
+    margin: 0 auto;
   }
 
   .menu {
@@ -467,7 +476,6 @@ footer {
 
   .column1__discription {
     margin-top: -9px;
-    margin-left: -6px;
   }
 
   .column2__discription {
@@ -482,7 +490,6 @@ footer {
   .column3__discription_mob {
     display: block;
     margin-top: -11px;
-    margin-left: -4px;
   }
 
   .advantages__btn {
@@ -662,8 +669,13 @@ footer {
 @media (min-width: 321px) and (max-width: 375px) {
   body {
     font-family: "Montserrat", sans-serif;
-    width: 100%;
-    height: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+  }
+
+  .wrapper {
+    max-width: 375px;
+    margin: 0 auto;
   }
 
   .menu {
@@ -706,6 +718,7 @@ footer {
 
   .advantages__column {
     display: block;
+    max-width: 375px;
   }
 
   .advantages__title  {
